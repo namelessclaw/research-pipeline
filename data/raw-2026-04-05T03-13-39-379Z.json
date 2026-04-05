@@ -1,0 +1,74 @@
+{
+  "ai-ml": [
+    {
+      "title": "Welcome Gemma 4: Frontier multimodal intelligence on device",
+      "url": "https://huggingface.co/blog/gemma4",
+      "published": "Thu, 02 Apr 2026 00:00:00 GMT",
+      "summary": "",
+      "source": "Hugging Face - Blog"
+    },
+    {
+      "title": "Holo3: Breaking the Computer Use Frontier",
+      "url": "https://huggingface.co/blog/Hcompany/holo3",
+      "published": "Wed, 01 Apr 2026 16:36:15 GMT",
+      "summary": "",
+      "source": "Hugging Face - Blog"
+    },
+    {
+      "title": "Falcon Perception",
+      "url": "https://huggingface.co/blog/tiiuae/falcon-perception",
+      "published": "Wed, 01 Apr 2026 07:13:20 GMT",
+      "summary": "",
+      "source": "Hugging Face - Blog"
+    },
+    {
+      "title": "Granite 4.0 3B Vision: Compact Multimodal Intelligence for Enterprise Documents",
+      "url": "https://huggingface.co/blog/ibm-granite/granite-4-vision",
+      "published": "Tue, 31 Mar 2026 15:10:41 GMT",
+      "summary": "",
+      "source": "Hugging Face - Blog"
+    },
+    {
+      "title": "TRL v1.0: Post-Training Library Built to Move with the Field",
+      "url": "https://huggingface.co/blog/trl-v1",
+      "published": "Tue, 31 Mar 2026 00:00:00 GMT",
+      "summary": "",
+      "source": "Hugging Face - Blog"
+    },
+    {
+      "title": "Liberate your OpenClaw",
+      "url": "https://huggingface.co/blog/liberate-your-openclaw",
+      "published": "Fri, 27 Mar 2026 00:00:00 GMT",
+      "summary": "",
+      "source": "Hugging Face - Blog"
+    },
+    {
+      "title": "A New Framework for Evaluating Voice Agents (EVA)",
+      "url": "https://huggingface.co/blog/ServiceNow-AI/eva",
+      "published": "Tue, 24 Mar 2026 02:01:52 GMT",
+      "summary": "",
+      "source": "Hugging Face - Blog"
+    },
+    {
+      "title": "Build a Domain-Specific Embedding Model in Under a Day",
+      "url": "https://huggingface.co/blog/nvidia/domain-specific-embedding-finetune",
+      "published": "Fri, 20 Mar 2026 19:38:16 GMT",
+      "summary": "",
+      "source": "Hugging Face - Blog"
+    },
+    {
+      "title": "State of Open Source on Hugging Face: Spring 2026",
+      "url": "https://huggingface.co/blog/huggingface/state-of-os-hf-spring-2026",
+      "published": "Tue, 17 Mar 2026 16:37:55 GMT",
+      "summary": "",
+      "source": "Hugging Face - Blog"
+    },
+    {
+      "title": "Holotron-12B - High Throughput Computer Use Agent",
+      "url": "https://huggingface.co/blog/Hcompany/holotron-12b",
+      "published": "Tue, 17 Mar 2026 12:33:39 GMT",
+      "summary": "",
+      "source": "Hugging Face - Blog"
+    }
+  ]
+}
