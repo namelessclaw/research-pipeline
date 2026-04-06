@@ -13,19 +13,19 @@ import { spawn } from 'child_process';
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
 // --- Config ---
-const VERTICAL_LABEL = 'Agentic Workflows & AI Automation Opportunities 2026';
+const VERTICAL_LABEL = 'New AI Agent Frameworks & Tools 2026 — Indie Dev Opportunities';
 const OUT_DIR = path.resolve(__dirname, 'output');
 
-// Web search queries targeting agentic workflow opportunities
+// Web search queries targeting AI agent tooling opportunities
 const SEARCHES = [
-  'agentic AI workflows automation tools 2026',
-  'AI agent orchestration platforms opportunities 2026',
-  'autonomous AI agents business applications 2026',
-  'AI multi-agent systems enterprise use cases 2026',
-  'no-code AI workflow automation platforms 2026',
-  'AI agents replacing traditional software workflows 2026',
-  'autonomous agents SaaS business model 2026',
-  'AI agent API platforms developer tools 2026',
+  'AutoGen CrewAI LangChain agents new features 2026',
+  'new AI agent frameworks released 2026 indie devs',
+  'AI agent tooling platforms for developers 2026',
+  'open source AI agent projects trending 2026',
+  'AI agent API services monetization 2026',
+  'no-code AI agent builders comparison 2026',
+  'multi-agent systems platforms indie developers 2026',
+  'AI agent workflow automation tools new releases 2026',
 ];
 
 // --- MiniMax API ---
@@ -54,13 +54,13 @@ SOURCES:
 ${articleList}
 
 TASK: Write a concise markdown report that:
-1. Names the single most compelling agentic AI opportunity for a solo indie dev right now (1 sentence — specific, surprising, under-the-radar)
-2. Lists exactly 3 concrete opportunities, each with:
-   - What it is (specific — what you'd actually build)
-   - Why it works (the actual mechanism — why someone pays)
+1. Names the single most interesting NEW AI agent framework or tool that just launched or gained traction (1 sentence — what it does, why it matters right now)
+2. Lists exactly 3 concrete things an indie dev could build or contribute in the next 1-8 weeks using these tools/platforms, each with:
+   - What it is (specific — what you'd build)
+   - Why it works (the actual mechanism — who's paying and why)
    - Estimated time to first dollar (realistic for solo dev, nights/weekends)
-   - Key risk or bottleneck (real one, not generic "need users")
-3. Closes with 1 sentence on the single most important agentic AI trend for indie devs in 2026
+   - Key risk or bottleneck (real one)
+3. Closes with 1 sentence on the single most important trend in AI agent tooling for indie devs in 2026
 
 Rules: Plain English. No "leverage", no "synergy". If a normal person wouldn't say it, don't write it. Output markdown only.`;
 
@@ -150,7 +150,7 @@ async function main() {
   // Save
   await fs.mkdir(OUT_DIR, { recursive: true });
   const timestamp = new Date().toISOString().slice(0, 10);
-  const outPath = path.join(OUT_DIR, `agentic-workflows-${timestamp}.md`);
+  const outPath = path.join(OUT_DIR, `ai-agent-tools-${timestamp}.md`);
   await fs.writeFile(outPath, `# ${VERTICAL_LABEL}\n\n${report}\n\n---\nGenerated: ${new Date().toISOString()}\nSources: ${SEARCHES.join(', ')}`);
   console.log(`\n💾 Report saved: ${outPath}`);
   console.log('\n--- REPORT PREVIEW ---');
