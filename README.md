@@ -13,14 +13,18 @@ Node.js + web_search (MiniMax) + subagent reasoning
 2. MiniMax synthesizes findings into a report
 3. Report saved to `output/`
 
+## New Requirement (2026-04-12)
+Each project idea/opportunity should be saved as its own MD file in `output/`, not combined into one report file.
+
 ## Notes
 - MiniMax-M2.7 needs short prompts + max_tokens=8192
 - No enterprise jargon. Indie dev voice. 1-8 week time-to-dollar.
 - Max wants agentic AI tooling as top priority.
 
-## Reports
-`output/` contains all completed research reports.
+## Reports Location
+`output/` should contain individual MD files per opportunity, not one big report per topic.
 
 ## Next Actions
-- Pick next topic from top candidates list
+- Refactor pipeline to output one file per opportunity
 - Continue running verticals through the pipeline
+- Each opportunity gets: name, description, dev time estimate, monetization approach, tech stack
